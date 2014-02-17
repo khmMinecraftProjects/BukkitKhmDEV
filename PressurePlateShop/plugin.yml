@@ -1,0 +1,20 @@
+name: PressurePlateShop
+main: me.PressureToBuy.Base
+version: 1
+database: false
+commands:
+   pps:
+      description: Set pressure plate shop
+permissions:
+         pps.pressureplate:
+                 description: Permission to use pressure plate shop
+                 default: op
+         pps.create:
+                 description: Permission to set pressure plate shop
+                 default: op
+         pps.remove:
+                 description: Permission to remove pressure plate shop
+                 default: op
+         pps.enabler:
+                 description: Permission to remove pressure plate shop
+                 default: op
