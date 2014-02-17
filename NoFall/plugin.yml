@@ -1,0 +1,11 @@
+name: NoFall
+main: me.NoFall.Base
+version: 1
+database: false
+commands:
+   nf:
+      permission: nf.command
+      permission-message: No tienes permisos <permission>
+permissions:
+         nf.command:
+                 default: op
