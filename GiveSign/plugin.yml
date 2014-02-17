@@ -1,0 +1,14 @@
+name: GiveSign
+main: me.GiveSign.Base
+version: 1
+database: false
+permissions:
+         SignGiver.use:
+                 description: Permission to use GiveSign
+                 default: op
+         SignGiver.create:
+                 description: Permission to set GiveSign
+                 default: op
+         SignGiver.remove:
+                 description: Permission to remove GiveSign
+                 default: op
