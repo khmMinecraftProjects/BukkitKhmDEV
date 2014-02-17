@@ -1,0 +1,11 @@
+name: NoteSoundBlock
+main: me.NoteSoundBlock.Base
+version: 1
+database: false
+commands:
+   nsb: {}
+permissions:
+         nsb.create:
+                 default: op
+         nsb.remove:
+                 default: op
