@@ -1,0 +1,27 @@
+name: spawnpoints
+main: me.RandomSpawn.Base
+version: 1
+database: false
+commands:
+   spawnset:
+      description: Set RandomSpawn
+      usage: /<command>
+      permission: 
+      permission-message: You haven't <permission>
+   spawndel:
+      description: delete RandomSpawn
+      usage: /<command>
+      permission: 
+      permission-message: You haven't <permission>
+   join:
+      description: join RandomSpawn
+      usage: /<command>
+      permission: 
+      permission-message: You haven't <permission>
+permissions:
+         spawnpoints.join:
+                 description: Permission to join RandomSpawn
+                 default: op
+         spawnpoints.create:
+                 description: Permission to set RandomSpawn
+                 default: op
