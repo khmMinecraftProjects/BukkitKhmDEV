@@ -1,14 +1,15 @@
-name: GiveSign
-main: me.GiveSign.Base
+name: ChatSeparator
+main: me.khmDev.ChatSeparator.Base
 version: 1
 database: false
+commands:
+   all:
+      permission: all.command
+      permission-message: No tienes permisos <permission>
 permissions:
-         SignGiver.use:
-                 description: Permission to use GiveSign
+         chatseparator.listenAll:
                  default: op
-         SignGiver.create:
-                 description: Permission to set GiveSign
+         all.command:
                  default: op
-         SignGiver.remove:
-                 description: Permission to remove GiveSign
+         chatseparator.visibleAll:
                  default: op
