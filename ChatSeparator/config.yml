@@ -1,11 +1,17 @@
+// si pones true, los jugadores solo veran en el tab los jugadores de su mundo, si no poner en false
 Tab_Invisibles: true
+// prefijo estandar para todos los mundos
 Prefijo_Estandar: '&a<'
+// sufijo estandar para todos los mundos
 Sufijo_Estandar: '> '
+// Alias cuando se envia un mensaje para todos los mundos
 General_Estandar: General
+// descripcion del mundo world
 world:
   Alias: Mundo Principal
   Prefijo: '&5['
   Sufijo: '] '
+// descripcion del mundo world_nether
 world_nether:
   Alias: Mundo Nether
   Prefijo: '&5{'
