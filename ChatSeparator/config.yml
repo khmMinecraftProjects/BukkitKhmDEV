@@ -1,0 +1,12 @@
+Tab_Invisibles: true
+Prefijo_Estandar: '&a<'
+Sufijo_Estandar: '> '
+General_Estandar: General
+world:
+  Alias: Mundo Principal
+  Prefijo: '&5['
+  Sufijo: '] '
+world_nether:
+  Alias: Mundo Nether
+  Prefijo: '&5{'
+  Sufijo: '} '
