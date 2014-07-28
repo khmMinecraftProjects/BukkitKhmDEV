@@ -1,0 +1,3 @@
+name: worldLimit
+main: me.khmdev.WorldLimit.init
+version: 1
