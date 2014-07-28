@@ -1,8 +1,8 @@
-"world":
-    minX: 0
-    minXP: 'world;187;168;133;'
-    maxX: 300
-    maxXP: 'world;187;168;133;'
+"world":  #Mundo donde se van a marcar los limites
+    minX: 0     #Coordebada limite minima del eje X
+    minXP: 'world;187;168;133;' #Localizacion a la que se hara TP al superar el minimo establecido en minX 
+    maxX: 300    #Coordebada limite maximo del eje X
+    maxXP: 'world;187;168;133;'  #"MUNDO;X;Y;Z"
     minY: 20
     minYP: 'world_nether;187;168;133;'
     maxY: 200
