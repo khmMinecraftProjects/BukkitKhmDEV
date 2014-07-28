@@ -1,0 +1,13 @@
+"world":
+    minX: 0
+    minXP: 'world;187;168;133;'
+    maxX: 300
+    maxXP: 'world;187;168;133;'
+    minY: 20
+    minYP: 'world_nether;187;168;133;'
+    maxY: 200
+    maxYP: 'world_the_end;187;168;133;'
+    minZ: 0
+    minZP: 'world_nether;187;168;133;'
+    maxZ: 200
+    maxZP: 'world_the_end;187;168;133;'
