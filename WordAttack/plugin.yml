@@ -1,0 +1,7 @@
+name: WordAttack
+main: me.khmdev.WordAttack.init
+version: 1
+commands:
+  getWord:
+softdepend: [HoloAPI]
+Depend: [HoloAPI]
