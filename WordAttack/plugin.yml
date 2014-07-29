@@ -3,5 +3,10 @@ main: me.khmdev.WordAttack.init
 version: 1
 commands:
   getWord:
+      permission: wordAttack.getItem
+      permission-message: No tienes permisos <permission>
+permissions:
+         wordAttack.getItem:
+                 default: op
 softdepend: [HoloAPI]
 Depend: [HoloAPI]
