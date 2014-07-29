@@ -31,7 +31,9 @@ public class RunHolo extends BukkitRunnable {
 		Location l = holo.getDefaultLocation();
 		for (Player p : Bukkit.getOnlinePlayers()) {
 
-			if (p.getLocation().distance(l) < v && pl != p) {
+			if (p.getLocation().distance(l) < v ||
+					p.getEyeLocation().distance(l) < v
+					&& pl != p) {
 				p.damage(dam, pl);
 				kill();
 				return;
