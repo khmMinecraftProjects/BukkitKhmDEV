@@ -9,23 +9,29 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerLoginEvent;
 
 public class ListenerNI implements Listener {
-	public ListenerNI(){
+	public ListenerNI() {
 		for (Player pl : Bukkit.getOnlinePlayers()) {
-			testPlayer(pl);
+			if (!testPlayer(pl)) {
+				pl.kickPlayer("Te estas haciendo pasar por un usuario premium");
+			}
 		}
 	}
-	private void testPlayer(Player pl){
+
+	private boolean testPlayer(Player pl) {
 		UUID id = UUIDConverter.getUUIDOf(pl.getName());
-		
-		System.out.println(id+" - "+pl.getUniqueId());
+
+		System.out.println(id + " - " + pl.getUniqueId());
 		if (id != null && id != pl.getUniqueId()) {
-			pl.kickPlayer(
-					"Te estas haciendo pasar por un usuario premium");
+			return false;
 		}
+		return true;
 	}
+
 	@EventHandler
 	public void Login(PlayerLoginEvent e) {
-		testPlayer(e.getPlayer());
+		if (!testPlayer(e.getPlayer())) {
+			e.disallow(null, "Te estas haciendo pasar por un usuario premium");
+		}
 	}
 
 }
